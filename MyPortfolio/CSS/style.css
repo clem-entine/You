@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box; 
+
+}
+body   
+{  
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% 100% ;
+background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(/images/clementine.jpg);
+filter: blur(20%);
+width: 100vh;
+}  
+
+header {  
+background-color: rgb(2, 97, 57);  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 60px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
+
+header * {  
+display: inline;  
+}  
+
+header li {  
+margin: 20px;  
+}  
+
+header li a {  
+color: blue;  
+text-decoration: none;  
+}
+
+h1{
+    position: relative;
+    top: 100px;
+    left: 75%;
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+
+h2 {
+    position: relative;
+    top: 10px;
+    left:65%;
+    top: 250px;
+    color: white;
+    
+
+}
+
+
+nav ul li a{
+    position: relative;
+    left: 220%;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: orange;
+    position: relative;
+    left: 10%;
+}
+
+p{
+    position: relative;
+    left: 72%;
+    top: 200px;
+    color: rgb(185, 178, 178);
+    font-size: 2rem;
+}
+
+img {
+    height: 300px;
+    border-radius: 100px;
+    position: relative;
+    left: 80%;
+    top: 130px;
+}
